@@ -1,0 +1,31 @@
+body {
+    background: silver;
+}
+
+.zastava {
+    background: linear-gradient(
+    to bottom,
+    red 50%,
+    white 50%);
+    background-size: 100% 43px;
+    position: fixed;
+    border: none;
+    height: 280px;
+    width: 520px;
+}
+
+.unutar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 240px;
+    height: 150.5px;
+    background: blue;
+}
+
+.unutar::before {
+    color: white;
+    content: " ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★";
+    margin-left: 10px;
+    display: inline-block;
+}
