@@ -32,6 +32,7 @@ body {
 
 #zastavaUK {
     position: absolute;
+    top: 300px;
     background: linear-gradient(90deg, transparent 46%, red 46%, red 56%, transparent 56%), /* crvena linija na sredini */
     linear-gradient(90deg, transparent 44%, white 44%, white 46%, red 46%, red 56%, white 56%, white 58%, transparent 58%), /* bela na sredini */
     linear-gradient(transparent 38%, white 38%, white 42%, red 42%, red 58%, white 58%, white 62%, transparent 62%), /* srednja linija */
