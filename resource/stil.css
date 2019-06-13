@@ -29,3 +29,14 @@ body {
     margin-left: 10px;
     display: inline-block;
 }
+
+#zastavaUK {
+    position: absolute;
+    background: linear-gradient(90deg, transparent 46%, red 46%, red 56%, transparent 56%), /* crvena linija na sredini */
+    linear-gradient(90deg, transparent 44%, white 44%, white 46%, red 46%, red 56%, white 56%, white 58%, transparent 58%), /* bela na sredini */
+    linear-gradient(transparent 38%, white 38%, white 42%, red 42%, red 58%, white 58%, white 62%, transparent 62%), /* srednja linija */
+    linear-gradient(33deg, transparent 45%, white 45%, white 48%, red 48%, red 54%, white 54%, white 57%, transparent 57%), /* na dole */
+    linear-gradient(-33deg, mediumblue 45%, white 45%, white 48%, red 48%, red 54%, white 54%, white 57%, mediumblue 57%); /* na gore */
+    width: 600px;
+    height: 280px;
+}
